@@ -1,0 +1,9 @@
+extends: semistandard
+env:
+  browser: true
+  es6: true
+parserOptions:
+  sourceType: module
+globals:
+  Phaser: readonly
+  PIXI: readonly
